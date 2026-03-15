@@ -7,7 +7,7 @@ function Character(name, age, hobby) {
 }
 
 Character.prototype.bio = function() {
-  return `Hi there, I'm ${this.name}, a ${this.age}-year-old MERN Stack Developer who loves ${this.hobby}!`;
+  return `Hi there, I'm ${this.name}, a ${this.age}-year-old Full Stack Developer who loves ${this.hobby}!`;
 }
 
 Character.prototype.interests = [
