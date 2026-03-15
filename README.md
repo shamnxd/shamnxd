@@ -1,16 +1,26 @@
-## Hi there 👋
+### Hey there!
+```
+javascript
+function Character(name, age, hobby) {
+  this.name = name;
+  this.age = age;
+  this.hobby = hobby;
+}
 
-<!--
-**shamnxd/shamnxd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Character.prototype.bio = function() {
+  return `Hi there, I'm ${this.name}, a ${this.age}-year-old MERN Stack Developer who loves ${this.hobby}!`;
+}
 
-Here are some ideas to get you started:
+Character.prototype.interests = [
+  'full-stack development',
+  'building scalable web apps',
+  'learning new technologies',
+  'backend & cloud architecture',
+  'modern React development'
+];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+const shamnad = new Character('Shamnad', 20, 'exploring tech');
+
+console.log(shamnad.bio());
+console.log(`My interests include: ${shamnad.interests.join(', ')}.`);
+```
