@@ -1,27 +1,7 @@
-### Hey there!
-```javascript
-function Character(name, age, hobby) {
-  this.name = name;
-  this.age = age;
-  this.hobby = hobby;
-}
+## About Me
 
-Character.prototype.bio = function() {
-  return `Hi there, I'm ${this.name}, a ${this.age}-year-old Full Stack Developer who loves ${this.hobby}!`;
-}
+I’m a Full Stack Developer with experience building scalable and maintainable web applications using the MERN stack. I work with technologies like React.js, Node.js, Express.js, MongoDB, TypeScript, and SQL to create performance-focused applications with clean and structured code.
 
-Character.prototype.interests = [
-  'full-stack development',
-  'building scalable web apps',
-  'learning new technologies',
-  'backend & cloud architecture',
-  'modern React development'
-];
+I have hands-on experience with Redux Toolkit, RESTful APIs, authentication systems, real-time communication using Socket.io, and cloud storage integrations. I’m also familiar with Docker and CI/CD fundamentals, giving me a solid understanding of deployment and production workflows.
 
-const shamnad = new Character('Shamnad', 20, 'exploring tech');
-
-console.log(shamnad.bio());
-console.log(`My interests include: ${shamnad.interests.join(', ')}.`);
-```
-
-- How to reach me: [Email](mailto:shamnadthayyil8@gmail.com), [WhatsApp](https://wa.me/+919656633324)
+I enjoy solving problems, learning new technologies, and continuously improving my development skills. My goal is to build reliable, scalable, and impactful digital products while growing as a software engineer.
