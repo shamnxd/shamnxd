@@ -1,1 +1,3 @@
+## About me 
+
 I am a Full Stack Developer with experience in building scalable and maintainable web applications using the MERN stack. I specialize in React.js, Node.js, Express.js, MongoDB, TypeScript, and SQL, with a strong focus on clean architecture, performance, and efficient problem-solving. I have hands-on experience with RESTful APIs, Redux Toolkit, authentication systems, real-time communication using Socket.io, cloud integrations, and modern development workflows including Docker and CI/CD fundamentals. Passionate about continuous learning and software engineering best practices, I aim to build reliable, scalable, and impactful digital solutions.
